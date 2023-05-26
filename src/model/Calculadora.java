@@ -179,43 +179,61 @@ public class Calculadora {
             if (rendaDisponivel < 200) {
                 regiaoUsuario.setAlimentosDisponiveis(
                         List.of(
-                                new Alimento("Óleo de Soja", 0, 6.99, 3),
-                                new Alimento("Polpa de Tomate", 0, 2.99, 1),
-                                new Alimento("Feijão Carioca Tipo 1", 0, 7.99, 3)
+                                new Alimento("Tapioca (500g)", 120, 10.00, 2),
+                                new Alimento("Farinha de Mandioca (1kg)", 140, 8.00, 2),
+                                new Alimento("Peixe Tambaqui (1kg)", 180, 30.00, 1),
+                                new Alimento("Castanha do Pará (250g)", 150, 25.00, 1),
+                                new Alimento("Açaí (500g)", 90, 15.00, 1),
+                                new Alimento("Pirarucu Seco (500g)", 200, 20.00, 1),
+                                new Alimento("Cupuaçu (1kg)", 160, 12.00, 2),
+                                new Alimento("Bacuri (1kg)", 100, 10.00, 2),
+                                new Alimento("Pupunha (1kg)", 120, 8.00, 2),
+                                new Alimento("Jambu (200g)", 80, 5.00, 2)
                         )
                 );
             } else if (rendaDisponivel < 400) {
                 regiaoUsuario.setAlimentosDisponiveis(
                         List.of(
-                                new Alimento("Achocolatado em Pó", 200, 5.99, 1),
-                                new Alimento("Açúcar Refinado", 1000, 7.99, 4),
-                                new Alimento("Arroz Agulhinha Tipo 1", 5000, 9.99, 2)
+                                new Alimento("Tucunaré (1kg)", 180, 40.00, 1),
+                                new Alimento("Açaí (1kg)", 90, 30.00, 2),
+                                new Alimento("Castanha do Pará (500g)", 150, 35.00, 1),
+                                new Alimento("Farinha de Uarini (1kg)", 140, 25.00, 2),
+                                new Alimento("Pirarucu (1kg)", 200, 50.00, 1),
+                                new Alimento("Cupuaçu (1kg)", 160, 40.00, 2),
+                                new Alimento("Pupunha (1kg)", 120, 20.00, 3),
+                                new Alimento("Jambu (200g)", 80, 5.00, 4),
+                                new Alimento("Tacacá (porção)", 200, 15.00, 2),
+                                new Alimento("Pato no Tucupi (porção)", 180, 35.00, 1)
                         )
                 );
             } else if (rendaDisponivel < 600) {
                 regiaoUsuario.setAlimentosDisponiveis(
                         List.of(
-                                new Alimento("Azeite de Oliva Extra Virgem", 500, 15.99, 1),
-                                new Alimento("Bala Mastigável", 60, 1.99, 2),
-                                new Alimento("Biscoito Cream Cracker", 200, 2.99, 2),
-                                new Alimento("Biscoito Recheado (Sabores)", 123, 3.49, 2),
-                                new Alimento("Azeite de Oliva Extra Virgem", 500, 15.99, 1),
-                                new Alimento("Bala Mastigável", 60, 1.99, 2),
-                                new Alimento("Biscoito Cream Cracker", 200, 2.99, 2),
-                                new Alimento("Biscoito Recheado (Sabores)", 123, 3.49, 2),
-                                new Alimento("Azeite de Oliva Extra Virgem", 500, 15.99, 1),
-                                new Alimento("Bala Mastigável", 60, 1.99, 2),
-                                new Alimento("Biscoito Cream Cracker", 200, 2.99, 2),
-                                new Alimento("Biscoito Recheado (Sabores)", 123, 3.49, 2)
+                                new Alimento("Açaí (1kg)", 90, 30.00, 2),
+                                new Alimento("Tucunaré (1kg)", 180, 40.00, 1),
+                                new Alimento("Farinha de Mandioca (1kg)", 120, 15.00, 4),
+                                new Alimento("Castanha do Pará (500g)", 150, 35.00, 1),
+                                new Alimento("Pirarucu (1kg)", 200, 50.00, 1),
+                                new Alimento("Cupuaçu (1kg)", 160, 40.00, 2),
+                                new Alimento("Pupunha (1kg)", 120, 20.00, 3),
+                                new Alimento("Tapioca (500g)", 80, 10.00, 5),
+                                new Alimento("Pato no Tucupi (porção)", 180, 35.00, 1),
+                                new Alimento("Bacuri (1kg)", 130, 45.00, 1)
                         )
                 );
             } else {
                 regiaoUsuario.setAlimentosDisponiveis(
                         List.of(
-                                new Alimento("Farinha de Mandioca Crua", 500, 2.99, 1),
-                                new Alimento("Farinha de Trigo", 1000, 4.99, 1),
-                                new Alimento("Feijão Carioca Tipo 1", 1000, 7.99, 3),
-                                new Alimento("Fubá Mimoso", 500, 2.99, 1)
+                                new Alimento("Tucunaré (1kg)", 180, 40.00, 1),
+                                new Alimento("Pirarucu (1kg)", 200, 50.00, 2),
+                                new Alimento("Bacuri (1kg)", 130, 45.00, 1),
+                                new Alimento("Cupuaçu (1kg)", 160, 40.00, 2),
+                                new Alimento("Açaí (1kg)", 90, 30.00, 3),
+                                new Alimento("Castanha do Pará (500g)", 150, 35.00, 1),
+                                new Alimento("Pato no Tucupi (porção)", 180, 35.00, 1),
+                                new Alimento("Pupunha (1kg)", 120, 20.00, 4),
+                                new Alimento("Farinha de Mandioca (1kg)", 120, 15.00, 5),
+                                new Alimento("Tapioca (500g)", 80, 10.00, 6)
                         )
                 );
             }
@@ -223,43 +241,62 @@ public class Calculadora {
             if (rendaDisponivel < 200) {
                 regiaoUsuario.setAlimentosDisponiveis(
                         List.of(
-                                new Alimento("Óleo de Soja", 0, 6.99, 3),
-                                new Alimento("Polpa de Tomate", 0, 2.99, 1),
-                                new Alimento("Feijão Carioca Tipo 1", 0, 7.99, 3)
+                                new Alimento("Feijão Verde (1kg)", 90, 8.00, 2),
+                                new Alimento("Macaxeira (1kg)", 120, 5.00, 5),
+                                new Alimento("Cuscuz de Milho (500g)", 150, 10.00, 3),
+                                new Alimento("Carne de Sol (1kg)", 180, 40.00, 1),
+                                new Alimento("Queijo Coalho (500g)", 130, 15.00, 2),
+                                new Alimento("Mungunzá (porção)", 160, 6.00, 2),
+                                new Alimento("Paçoca de Carne de Sol (500g)", 90, 12.00, 1),
+                                new Alimento("Jerimum (1kg)", 120, 4.00, 5),
+                                new Alimento("Aipim (1kg)", 100, 3.00, 5),
+                                new Alimento("Coco Verde (unidade)", 80, 2.00, 10)
                         )
                 );
             } else if (rendaDisponivel < 400) {
                 regiaoUsuario.setAlimentosDisponiveis(
                         List.of(
-                                new Alimento("Achocolatado em Pó", 200, 5.99, 1),
-                                new Alimento("Açúcar Refinado", 1000, 7.99, 4),
-                                new Alimento("Arroz Agulhinha Tipo 1", 5000, 9.99, 2)
+                                new Alimento("Feijão Verde (1kg)", 90, 8.00, 4),
+                                new Alimento("Carne de Sol (1kg)", 180, 40.00, 2),
+                                new Alimento("Cuscuz de Milho (500g)", 150, 10.00, 6),
+                                new Alimento("Queijo Coalho (500g)", 130, 15.00, 4),
+                                new Alimento("Macaxeira (1kg)", 120, 5.00, 8),
+                                new Alimento("Mungunzá (porção)", 160, 6.00, 4),
+                                new Alimento("Jerimum (1kg)", 120, 4.00, 8),
+                                new Alimento("Aipim (1kg)", 100, 3.00, 10),
+                                new Alimento("Paçoca de Carne de Sol (500g)", 90, 12.00, 2),
+                                new Alimento("Coco Verde (unidade)", 80, 2.00, 20)
                         )
                 );
             } else if (rendaDisponivel < 600) {
                 regiaoUsuario.setAlimentosDisponiveis(
                         List.of(
-                                new Alimento("Azeite de Oliva Extra Virgem", 500, 15.99, 1),
-                                new Alimento("Bala Mastigável", 60, 1.99, 2),
-                                new Alimento("Biscoito Cream Cracker", 200, 2.99, 2),
-                                new Alimento("Biscoito Recheado (Sabores)", 123, 3.49, 2),
-                                new Alimento("Azeite de Oliva Extra Virgem", 500, 15.99, 1),
-                                new Alimento("Bala Mastigável", 60, 1.99, 2),
-                                new Alimento("Biscoito Cream Cracker", 200, 2.99, 2),
-                                new Alimento("Biscoito Recheado (Sabores)", 123, 3.49, 2),
-                                new Alimento("Azeite de Oliva Extra Virgem", 500, 15.99, 1),
-                                new Alimento("Bala Mastigável", 60, 1.99, 2),
-                                new Alimento("Biscoito Cream Cracker", 200, 2.99, 2),
-                                new Alimento("Biscoito Recheado (Sabores)", 123, 3.49, 2)
+                                new Alimento("Carne de Sol (1kg)", 180, 40.00, 2),
+                                new Alimento("Queijo Coalho (500g)", 130, 15.00, 4),
+                                new Alimento("Cuscuz de Milho (500g)", 150, 10.00, 6),
+                                new Alimento("Feijão Verde (1kg)", 90, 8.00, 4),
+                                new Alimento("Tapioca (500g)", 100, 5.00, 6),
+                                new Alimento("Macaxeira (1kg)", 120, 5.00, 8),
+                                new Alimento("Pamonha (unidade)", 150, 4.00, 10),
+                                new Alimento("Aipim (1kg)", 100, 3.00, 10),
+                                new Alimento("Caju (1kg)", 80, 6.00, 4),
+                                new Alimento("Coco Verde (unidade)", 80, 2.00, 20),
+                                new Alimento("Mungunzá (porção)", 160, 6.00, 4)
                         )
                 );
             } else {
                 regiaoUsuario.setAlimentosDisponiveis(
                         List.of(
-                                new Alimento("Farinha de Mandioca Crua", 500, 2.99, 1),
-                                new Alimento("Farinha de Trigo", 1000, 4.99, 1),
-                                new Alimento("Feijão Carioca Tipo 1", 1000, 7.99, 3),
-                                new Alimento("Fubá Mimoso", 500, 2.99, 1)
+                                new Alimento("Carne de Sol (1kg)", 180, 40.00, 2),
+                                new Alimento("Queijo Coalho (500g)", 130, 15.00, 4),
+                                new Alimento("Cuscuz de Milho (500g)", 150, 10.00, 6),
+                                new Alimento("Feijão Verde (1kg)", 90, 8.00, 4),
+                                new Alimento("Tapioca (500g)", 100, 5.00, 6),
+                                new Alimento("Macaxeira (1kg)", 120, 5.00, 8),
+                                new Alimento("Pamonha (unidade)", 150, 4.00, 10),
+                                new Alimento("Aipim (1kg)", 100, 3.00, 10),
+                                new Alimento("Caju (1kg)", 80, 6.00, 4),
+                                new Alimento("Mungunzá (porção)", 160, 6.00, 4)
                         )
                 );
             }
@@ -267,43 +304,61 @@ public class Calculadora {
             if (rendaDisponivel < 200) {
                 regiaoUsuario.setAlimentosDisponiveis(
                         List.of(
-                                new Alimento("Óleo de Soja", 0, 6.99, 3),
-                                new Alimento("Polpa de Tomate", 0, 2.99, 1),
-                                new Alimento("Feijão Carioca Tipo 1", 0, 7.99, 3)
+                                new Alimento("Pequi (1kg)", 50, 30.00, 1),
+                                new Alimento("Guariroba (1kg)", 80, 15.00, 2),
+                                new Alimento("Pintado (1kg)", 100, 25.00, 2),
+                                new Alimento("Jabuticaba (1kg)", 60, 10.00, 3),
+                                new Alimento("Pamonha (unidade)", 150, 5.00, 5),
+                                new Alimento("Mandioca (1kg)", 120, 5.00, 6),
+                                new Alimento("Araticum (1kg)", 70, 20.00, 2),
+                                new Alimento("Peixe Pintado (1kg)", 110, 30.00, 1),
+                                new Alimento("Doce de Leite (500g)", 90, 10.00, 4),
+                                new Alimento("Bolo de Arroz (unidade)", 80, 3.00, 10)
                         )
                 );
             } else if (rendaDisponivel < 400) {
                 regiaoUsuario.setAlimentosDisponiveis(
                         List.of(
-                                new Alimento("Achocolatado em Pó", 200, 5.99, 1),
-                                new Alimento("Açúcar Refinado", 1000, 7.99, 4),
-                                new Alimento("Arroz Agulhinha Tipo 1", 5000, 9.99, 2)
+                                new Alimento("Pequi (1kg)", 50, 30.00, 1),
+                                new Alimento("Guariroba (1kg)", 80, 15.00, 2),
+                                new Alimento("Pintado (1kg)", 100, 25.00, 2),
+                                new Alimento("Jabuticaba (1kg)", 60, 10.00, 3),
+                                new Alimento("Pamonha (unidade)", 150, 5.00, 5),
+                                new Alimento("Mandioca (1kg)", 120, 5.00, 6),
+                                new Alimento("Araticum (1kg)", 70, 20.00, 2),
+                                new Alimento("Peixe Pintado (1kg)", 110, 30.00, 1),
+                                new Alimento("Doce de Leite (500g)", 90, 10.00, 4),
+                                new Alimento("Bolo de Arroz (unidade)", 80, 3.00, 10)
                         )
                 );
             } else if (rendaDisponivel < 600) {
                 regiaoUsuario.setAlimentosDisponiveis(
                         List.of(
-                                new Alimento("Azeite de Oliva Extra Virgem", 500, 15.99, 1),
-                                new Alimento("Bala Mastigável", 60, 1.99, 2),
-                                new Alimento("Biscoito Cream Cracker", 200, 2.99, 2),
-                                new Alimento("Biscoito Recheado (Sabores)", 123, 3.49, 2),
-                                new Alimento("Azeite de Oliva Extra Virgem", 500, 15.99, 1),
-                                new Alimento("Bala Mastigável", 60, 1.99, 2),
-                                new Alimento("Biscoito Cream Cracker", 200, 2.99, 2),
-                                new Alimento("Biscoito Recheado (Sabores)", 123, 3.49, 2),
-                                new Alimento("Azeite de Oliva Extra Virgem", 500, 15.99, 1),
-                                new Alimento("Bala Mastigável", 60, 1.99, 2),
-                                new Alimento("Biscoito Cream Cracker", 200, 2.99, 2),
-                                new Alimento("Biscoito Recheado (Sabores)", 123, 3.49, 2)
+                                new Alimento("Pequi (1kg)", 50, 30.00, 1),
+                                new Alimento("Jabuticaba (1kg)", 60, 10.00, 3),
+                                new Alimento("Pamonha (unidade)", 150, 5.00, 5),
+                                new Alimento("Mandioca (1kg)", 120, 5.00, 6),
+                                new Alimento("Araticum (1kg)", 70, 20.00, 2),
+                                new Alimento("Peixe Pintado (1kg)", 110, 30.00, 1),
+                                new Alimento("Doce de Leite (500g)", 90, 10.00, 4),
+                                new Alimento("Bolo de Arroz (unidade)", 80, 3.00, 10),
+                                new Alimento("Castanha de Baru (500g)", 160, 15.00, 2),
+                                new Alimento("Queijo Curado (1kg)", 140, 25.00, 2)
                         )
                 );
             } else {
                 regiaoUsuario.setAlimentosDisponiveis(
                         List.of(
-                                new Alimento("Farinha de Mandioca Crua", 500, 2.99, 1),
-                                new Alimento("Farinha de Trigo", 1000, 4.99, 1),
-                                new Alimento("Feijão Carioca Tipo 1", 1000, 7.99, 3),
-                                new Alimento("Fubá Mimoso", 500, 2.99, 1)
+                                new Alimento("Pequi (1kg)", 50, 30.00, 1),
+                                new Alimento("Guariroba (1kg)", 80, 15.00, 2),
+                                new Alimento("Pintado (1kg)", 100, 25.00, 2),
+                                new Alimento("Jabuticaba (1kg)", 60, 10.00, 3),
+                                new Alimento("Pamonha (unidade)", 150, 5.00, 5),
+                                new Alimento("Mandioca (1kg)", 120, 5.00, 6),
+                                new Alimento("Bolo de Arroz (unidade)", 80, 3.00, 10),
+                                new Alimento("Castanha de Baru (500g)", 160, 15.00, 2),
+                                new Alimento("Queijo Curado (1kg)", 140, 25.00, 2),
+                                new Alimento("Paçoca de Amendoim (unidade)", 120, 2.50, 8)
                         )
                 );
             }
